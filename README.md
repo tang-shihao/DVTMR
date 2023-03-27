@@ -3,4 +3,4 @@ The pipeline code of "A Comprehensive Mendelian Randomization Study to Identify 
 
 0-RadialMR.R, 1-MR.R, 2-MR_Qtest.R and 4-MR_Lootable.R operated in R 4.0.5
 
-3-MR_SIMEX.R in R 3.3.2
+3-MR_SIMEX.R operated in R 3.3.2
