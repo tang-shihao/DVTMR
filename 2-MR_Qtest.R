@@ -49,7 +49,3 @@ a3<-cbind(a1,a2)
 
 
 write.table(a3,output3,quote=F,row.names=F,col.names=F,sep="\t") #Q-Q' pvalue
-
-
-
-
