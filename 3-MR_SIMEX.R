@@ -38,17 +38,3 @@ re3<-as.data.frame(re2$coefficients)
 write.table(I_2,output1,quote=F,row.names=F,col.names=F,sep="\t") ##I2_GX
 write.table(re3[1,],output2,quote=F,row.names=F,col.names=F,sep="\t") ## SIMEX Intercept
 write.table(re3[2,],output3,quote=F,row.names=F,col.names=F,sep="\t") ## SIMEX Slope
-
-
-
-
-
-
-
-
-
-
-
-
-
-
