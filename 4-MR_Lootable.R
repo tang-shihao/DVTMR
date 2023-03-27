@@ -43,14 +43,10 @@ res_loo <- mr_leaveoneout(dat,method=mr_ivw)
 
 a1<-cbind(res_loo[6],res_loo[7],res_loo[8],res_loo[9])
 #p1 <- mr_leaveoneout_plot(res_loo)
-#pdf(file = output1)
-#p1
+#pdfname <-gsub(" ", "", paste(output1, ".pdf"))
+#pdf(file=pdfname)
+#p1[[1]]
 #dev.off()
 
 
 write.table(a1,output1,quote=F,row.names=F,col.names=F,sep="\t") #loo table
-
-##write.table(a2,output4,quote=F,row.names=F,col.names=F,sep="\t") #Q-Q' pvalue
-
-
-
